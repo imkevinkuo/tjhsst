@@ -2,7 +2,7 @@
   
 Here are several of my high school projects/assignments.  
   
-### wordladder.py** ### builds a graph with the 6-letter words in words.txt. Words with a one letter difference are neighbors in the graph.  
+### wordladder.py ### builds a graph with the 6-letter words in words.txt. Words with a one letter difference are neighbors in the graph.  
     
 **railroad.py** builds a railroad graph from two text files: a location list and an edge list. Romanian cities are used for a simplified problem, while U.S.A. rail stations + major cities are used for the expanded problem.  
 The program then traverses it using either A* or Dijkstra's algorithm. A* has a faster runtime than Dijkstra's, but does not fully minimize the path length.  
