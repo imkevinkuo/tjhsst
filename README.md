@@ -41,7 +41,7 @@ Untangled path:
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/optimization/best path.png" width="50%">  
   
 ## nQueens
-Draws an N-by-N square board with N queens, such that none of them attack each other.<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/optimization/nqueens30.png" width="40%" align="right">  
+Draws an N-by-N square board with N queens, such that none of them attack each other.<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/optimization/nqueens30.png" width="40%" align="right">
 **Brute force backtracking** - Generates all possible boards one queen at a time and only works off legal permutations (i.e. will eliminate a "solution" that contains a queen in A1 and another in B2, even if the board size is 8).  Returns a list of all possible boards. Time efficiency is n! due to brute force nature.  
 **Hill climbing** - Generates a random board and checks single column swaps to reduce # of conflicts. Sometimes, a solution cannot be found due to the starting spot (we reach a 'local minimum'), in which case we generate a new board and restart.
 **Genetic algorithm** - Similar to the genetic TSP method. Splices parent boards by copying the front of parent 1 (up to a specified pivot point) and appending the rest of the unused numbers in the order they occur in parent 2. This algorithm's time efficiency is far more reliable than the above two methods at large N.
