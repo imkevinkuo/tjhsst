@@ -3,7 +3,7 @@
 A compilation of my high school projects/assignments.  
 Graph Traversal Algorithms: [Word Ladder](#wordladder), [Rail Road](#railroad)  
 Game Automation: [Sudoku](#sudoku), [Ghost](#ghost), [Othello](#othello)  
-Optimization: [Travelling Salesman](#salesman), [N Queens](#nQueens), [Neural Networks](#neuralnetwork)  
+Optimization: [Travelling Salesman](#salesman), [N-Queens](#nQueens), [Neural Networks](#neuralnetwork)  
 Graphics: [Computer Vision](#computervision), [Mandelbrot Set](#mandelbrot), [Raytracing](#raytracing)  
 Simulations: [Forest Fire](#forestfire), [Social Links](#sociallinks), [Fireflies](#fireflies)  
 Misc: [Closest Points](#closestpoints), [Huffman](#huffman)  
@@ -41,11 +41,11 @@ Untangled path:
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/optimization/best path.png" width="50%">  
   
 ## nQueens
-Draws an N-by-N square board with N queens, such that none of them attack each other.  
+Draws an N-by-N square board with N queens, such that none of them attack each other.
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/optimization/nqueens30.png" width="40%" align="right">  
 **Brute force backtracking** - Generates all possible boards one queen at a time and only works off legal permutations (i.e. will eliminate a "solution" that contains a queen in A1 and another in B2, even if the board size is 8).  Returns a list of all possible boards. Time efficiency is n! due to brute force nature.  
 **Hill climbing** - Generates a random board and checks single column swaps to reduce # of conflicts. Sometimes, a solution cannot be found due to the starting spot (we reach a 'local minimum'), in which case we generate a new board and restart.
 **Genetic algorithm** - Similar to the genetic TSP method. Splices parent boards by copying the front of parent 1 (up to a specified pivot point) and appending the rest of the unused numbers in the order they occur in parent 2. This algorithm's time efficiency is far more reliable than the above two methods at large N.
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/optimization/nqueens30.png" width="50%">  
   
 ## neuralnetwork
 WIP    
@@ -108,7 +108,7 @@ Displays fireflies (yellow dots) on a night (black) background.
 Each firefly builds up charge over time. Upon reaching full charge, it displays a full intensity yellow dot on the screen, which then fades.  
 Discharging a light will cause nearby fireflies to also adjust their discharge times to more closely match each other.  
 End result is all fireflies discharging and lighting up together.  
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/fireflies/fireflies.png" width="50%">
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/fireflies/fireflies.png" width="50%" align="right">
   
 ## closestpoints
 Compares three algorithms for finding the two closest points in a set.  
