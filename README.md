@@ -27,9 +27,9 @@ This Python script creates an alphabetic trie out of the words in ghost.txt and 
   
 ## othello
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/othello/othello.png" width="50%" align="right">  
-This Python othello bot that uses an minimax algorithm.
-The script supports player vs. player, player vs. computer, or computer vs. computer.  
-It can also read in a board and output an 'optimal' move - **oModerator.py** (written by instructor) takes two such programs and makes them play each other, recording the win/loss results at the end.  
+This Python script for Othello supports player vs. player, player vs. computer, or computer vs. computer. <br>
+The computer player uses a minimax algorithm that prioritizes edges and corners and assumes the opponent will do the same. <br>
+It can also read in a board and output an 'optimal' move - <b>oModerator.py</b> (written by instructor) plays two such programs against each other for multiple rounds and records the win/loss results at the end. <br><br>
   
 ## salesman
 Travelling Salesman Problem (TSP) in Python  
