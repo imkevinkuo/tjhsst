@@ -16,26 +16,27 @@ Builds a railroad graph from two text files: a location list and an edge list. R
 The program then traverses it using either A* or Dijkstra's algorithm. A* has a faster runtime than Dijkstra's, but does not fully minimize the path length.  
   
 ## sudoku
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/sudoku/sudoku.png" width="50%" align="right">  
 Uses deductions such as elimination and twin rules to solve sudoku puzzles.  
 A puzzle is a string of 81 characters, where the '.' character represents an empty space. sudoku128.txt contains 128 puzzles.  
   
 ## ghost
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/ghost/ghost.png" width="50%" align="right">  
 A game where players take turns spelling out individual letters of a word. The first player to complete a word or a word-less prefix loses.  
 The Python script creates an alphabetic trie out of the words in ghost.txt and supports any combination of human and computer players.  
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/ghost/ghost.png" width="50%">  
   
 ## othello
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/othello/othello.png" width="50%" align="right">  
 Uses a minimax algorithm that values corners > edges > other squares.  
 The script supports player vs. player, player vs. computer, or computer vs. computer.  
 It can also read in a board and output an 'optimal' move - **oModerator.py** (written by instructor) takes two such programs and makes them play each other, recording the win/loss results at the end.  
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/othello/othello.png" width="50%">  
   
 ## salesman
 Travelling Salesman Problem (TSP)  
 **Iterative** - randomly generates a path, then "untangles" it, eliminating all intersections between line segments in the path. After untangling, the program makes local optimizations, which minimizes path length in sets of 4-8 adjacent points.  
 **Genetic algorithm** - creates a size N population of untangled paths and measures path fitness inversely with path length. Each generation cycle creates N/2 "children paths" by combining two members of the current population. The least fit N/2 members of the new population are then removed from the set.  
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/salesman/working path.png" width="40%">
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/salesman/best path.png" width="40%">  
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/salesman/working path.png" width="50%">
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/salesman/best path.png" width="50%">  
   
 ## nQueens
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/nqueens/nqueens30.png" width="40%" align="right">
