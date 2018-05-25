@@ -1,6 +1,6 @@
 # tjhsst
   
-A compilation of my high school projects/assignments.  
+A compilation of my high school projects/assignments. I am currently cleaning up Neural Networks and Raytracing.  
 Graph Traversal Algorithms: [Word Ladder](#wordladder), [Rail Road](#railroad)  
 Game Automation: [Sudoku](#sudoku), [Ghost](#ghost), [Othello](#othello)  
 Optimization: [Travelling Salesman](#salesman), [N-Queens](#nQueens), [Neural Networks](#neuralnetwork)  
@@ -86,7 +86,10 @@ MPIbrot has identical function, but can use multiple processing cores using mpir
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/mandelbrot/zoomedin.png" width="30%">  
   
 ## raytracing
-haHAA
+This C program uses raytracing techniques to draw simple 3d graphics on a 640x480 pixel canvas.
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/raytracing/ray00.png" width="30%">
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/raytracing/ray0_5.png" width="30%">
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/raytracing/ray01.png" width="30%">  
   
 ## forestfire
 This C program simulates a "forest fire" where fire spreads to adjacent cells.  
