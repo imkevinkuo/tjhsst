@@ -57,7 +57,37 @@ Note how in graphrand, the graph is shaped more symmetrically, while in graphite
 
 ### fireflies
 Displays fireflies (yellow dots) on a night (black) background.  
-Each firefly builds up charge. Upon reaching full charge, it displays a full intensity yellow dot on the screen, which then fades.  
+Each firefly builds up charge over time. Upon reaching full charge, it displays a full intensity yellow dot on the screen, which then fades.  
 Discharging a light will cause nearby fireflies to also adjust their discharge times to more closely match each other.  
-End result is all fireflies discharging and lighting up together.
-<img src="https://raw.githubusercontent.com/SaltMining/tjhsst/master/fireflies/fireflies.png">
+End result is all fireflies discharging and lighting up together.  
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/fireflies/fireflies.png">
+
+### computervision
+**Grayscale**  
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/leaves/leaves.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/leaves/leavesgb.jpg" width="30%">
+  
+**Edge detection (Sobel/Canny)**  
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/leaves/leavesgbe.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/leaves/leavesgbet.jpg" width="30%">
+
+**Circle detection (Hough Transform)**  
+<nowiki>*</nowiki>brighter spots in the third image have a greater likelyhood of being detected as a circle.  
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/coins.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/coinse.jpg" width="30%">  
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/coinshough.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/coinsfinal.jpg" width="30%">
+
+**Concentric Circle Detection**  
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/donuts.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/donutsedge.jpg" width="30%">  
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/donutshough.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/donutsfinal.jpg" width="30%">
+
+**Line Detection**  
+<nowiki>*</nowiki>the third image plots two variables, rho and theta. Pixel intensity increases with likelyhood of being a line.  
+Implementation details can be found <a href= "https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html">here</a>.  
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/tilted.png" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/tiltede.jpg" width="30%">  
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/tiltedhough.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/tiltedfinal.jpg" width="30%">
