@@ -1,6 +1,9 @@
 # tjhsst
   
 Here are several of my high school projects/assignments.  
+1. [Word Ladder](#wordladder)
+2. [Rail Road](#railroad)
+3. [Sudoku](#sudoku)
   
 ## wordladder
 Builds a graph with the 6-letter words in words.txt. Words with a one letter difference are neighbors in the graph.  
@@ -103,7 +106,7 @@ Simple Huffman encoding and decoding. Uses one Amendement from the U.S. Constitu
 Plots a shaded Mandelbrot Set using glut and GL.  
 Allows the user to zoom in/out indefinitely and increase/decrease calculation precision.  
 MPIbrot has identical function, but can use multiple processing cores using mpirun.  
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/mandelbrot/fewsteps.png" width="20%">  
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/mandelbrot/moresteps.png" width="20%">  
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/mandelbrot/zoomedin.png" width="20%">  
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/mandelbrot/fewsteps.png" width="30%">
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/mandelbrot/moresteps.png" width="30%">
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/mandelbrot/zoomedin.png" width="30%">  
   
