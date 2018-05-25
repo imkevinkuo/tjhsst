@@ -4,7 +4,7 @@ A compilation of my high school projects/assignments.
 Graph Traversal Algorithms: [Word Ladder](#wordladder), [Rail Road](#railroad)  
 Game Automation: [Sudoku](#sudoku), [Ghost](#ghost), [Othello](#othello)  
 Optimization: [Travelling Salesman](#salesman), [N-Queens](#nQueens), [Neural Networks](#neuralnetwork)  
-Graphics: [Computer Vision](#computervision), [Mandelbrot Set](#mandelbrot), [Raytracing](#raytracing)  
+Graphics: [Image Processing](#imageprocessing), [Mandelbrot Set](#mandelbrot), [Raytracing](#raytracing)  
 Simulations: [Forest Fire](#forestfire), [Social Links](#sociallinks), [Fireflies](#fireflies)  
 Misc: [Closest Points](#closestpoints), [Huffman](#huffman)  
   
@@ -48,8 +48,8 @@ This Python script places N queens on a NxN board with queens such that none of 
 ## neuralnetwork
 WIP    
   
-## computervision
-All the techniques below are implemented in Python.  
+## imageprocessing
+All the image feature detection techniques below are implemented in Python.  
 **Grayscale & Edge detection (Sobel+Canny)**  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/computervision/img/leaves.jpg" width="30%">
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/computervision/img/leavesgb.jpg" width="30%">  
@@ -101,7 +101,7 @@ Group two starts with a small number of people (a "popular group") who all know 
 Note that the first graph is shaped more symmetrically, while in the second, there are only a few popular people and most people (the new members added later) only have a few connections.  
   
 ## fireflies
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/fireflies/fireflies.png" width="50%" align="right">  
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/fireflies/fireflies.png" width="30%" align="right">  
 This Python script displays fireflies (yellow dots) on a night (black) background.<br>
 Each firefly builds up charge over time. Upon reaching full charge, it displays a full intensity yellow dot on the screen, which then fades.<br>
 Discharging a light will cause nearby fireflies to also adjust their discharge times to more closely match each other.<br>
