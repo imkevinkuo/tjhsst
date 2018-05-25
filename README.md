@@ -107,7 +107,7 @@ All fireflies have a set 'charge-up' time, but have random start times. <br><br>
 
 When a firefly 'discharges', it will display full intensity yellow dot on the screen, which then fades. Discharging a light will also cause nearby fireflies to also adjust their discharge times to more closely match the source.<br><br>
 
-After enough time passes, all of the fireflies will discharge and light up together.<br><br>
+After enough time passes, all of the fireflies will discharge and light up together.<br>
   
 ## closestpoints
 This C++ program compares three algorithms for finding the two closest points in a set.  
