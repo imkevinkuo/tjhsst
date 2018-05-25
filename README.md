@@ -50,11 +50,9 @@ WIP
   
 ## computervision
 All the techniques below are implemented in Python.  
-**Grayscale**  
+**Grayscale & Edge detection (Sobel+Canny)**  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/computervision/img/leaves.jpg" width="30%">
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/computervision/img/leavesgb.jpg" width="30%">  
-  
-**Edge detection (Sobel/Canny)**  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/computervision/img/leavesgbe.jpg" width="30%">
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/computervision/img/leavesgbet.jpg" width="30%">  
   
@@ -100,14 +98,14 @@ Group one starts with a given population and draws random links between everyone
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/sociallinks//graphrand.jpg" width="50%">  
 Group two starts with a small number of people (a "popular group") who all know each other. We iteratively add new members to the society and give each new member a few social links. The resulting graph is shown by graphiter.jpg.  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/sociallinks//graphiter.jpg" width="50%">  
-Note how in graphrand, the graph is shaped more symmetrically, while in graphiter, there are only a few popular people and most people (the new members added later) only have a few connections.  
+Note that the first graph is shaped more symmetrically, while in the second, there are only a few popular people and most people (the new members added later) only have a few connections.  
   
 ## fireflies
-This Python script displays fireflies (yellow dots) on a night (black) background.  
-Each firefly builds up charge over time. Upon reaching full charge, it displays a full intensity yellow dot on the screen, which then fades.  
-Discharging a light will cause nearby fireflies to also adjust their discharge times to more closely match each other.  
-End result is all fireflies discharging and lighting up together.  
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/fireflies/fireflies.png" width="50%" align="right">
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/fireflies/fireflies.png" width="50%" align="right">  
+This Python script displays fireflies (yellow dots) on a night (black) background.<br>
+Each firefly builds up charge over time. Upon reaching full charge, it displays a full intensity yellow dot on the screen, which then fades.<br>
+Discharging a light will cause nearby fireflies to also adjust their discharge times to more closely match each other.<br>
+After enough time passes, all of the fireflies will discharge and light up together.<br>
   
 ## closestpoints
 This C++ program compares three algorithms for finding the two closest points in a set.  
