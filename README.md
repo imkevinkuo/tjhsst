@@ -19,7 +19,7 @@ The program then traverses it using either A* or Dijkstra's algorithm. A* has a 
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/sudoku/sudoku.png" width="50%" align="right">  
 Uses deductions such as elimination and twin rules to solve sudoku puzzles. <br>
 A puzzle is a string of 81 characters, where the '.' character represents an empty space. sudoku128.txt contains 128 puzzles. <br>
-<br>
+        
 ## ghost
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/ghost/ghost.png" width="50%" align="right">  
 A game where players take turns spelling out individual letters of a word. The first player to complete a word or a word-less prefix loses.  
