@@ -2,29 +2,29 @@
   
 Here are several of my high school projects/assignments.  
   
-### wordladder
+## wordladder
 Builds a graph with the 6-letter words in words.txt. Words with a one letter difference are neighbors in the graph.  
   
-### railroad
+## railroad
 Builds a railroad graph from two text files: a location list and an edge list. Romanian cities are used for a simplified problem, while U.S.A. rail stations + major cities are used for the expanded problem.  
 The program then traverses it using either A* or Dijkstra's algorithm. A* has a faster runtime than Dijkstra's, but does not fully minimize the path length.  
   
-### sudoku
+## sudoku
 Uses deductions such as elimination and twin rules to solve sudoku puzzles.  
 A puzzle is a string of 81 characters, where the '.' character represents an empty space. sudoku128.txt contains 128 puzzles.  
   
-### ghost
+## ghost
 A game where players take turns spelling out individual letters of a word. The first player to complete a word or a word-less prefix loses.  
 The Python script creates an alphabetic trie out of the words in ghost.txt and supports any combination of human and computer players.  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/ghost/ghost.png" width="50%">  
   
-### othello  
+## othello  
 Uses a minimax algorithm that values corners > edges > other squares.  
 The script supports player vs. player, player vs. computer, or computer vs. computer.  
 It can also read in a board and output an 'optimal' move - **oModerator.py** (written by instructor) takes two such programs and makes them play each other, recording the win/loss results at the end.  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/othello/othello.png" width="50%">  
   
-### salesman
+## salesman
 Travelling Salesman Problem (TSP)
   
 **Iterative** - randomly generates a path, then "untangles" it, eliminating all intersections between line segments in the path. After untangling, the program makes local optimizations, which minimizes path length in sets of 4-8 adjacent points.  
@@ -36,7 +36,7 @@ Example of path mid-untangling:
 Untangled path:  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/optimization/best path.png" width="50%">  
   
-### nQueens
+## nQueens
 Draws an N-by-N square board with N queens, such that none of them attack each other.  
 
 **Brute force backtracking** - Generates all possible boards one queen at a time and only works off legal permutations (i.e. will eliminate a "solution" that contains a queen in A1 and another in B2, even if the board size is 8).  Returns a list of all possible boards. Time efficiency is n! due to brute force nature.  
@@ -44,7 +44,7 @@ Draws an N-by-N square board with N queens, such that none of them attack each o
 **Genetic algorithm** - Similar to the genetic TSP method. Splices parent boards by copying the front of parent 1 (up to a specified pivot point) and appending the rest of the unused numbers in the order they occur in parent 2. This algorithm's time efficiency is far more reliable than the above two methods at large N.
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/optimization/nqueens30.png" width="50%">  
   
-### sociallinks
+## sociallinks
 Analyzes two different social groups:  
 
 Each graph is a distribution of people based on # of social connections. 
@@ -55,14 +55,14 @@ Group two starts with a small number of people (a "popular group") who all know 
 Note how in graphrand, the graph is shaped more symmetrically, while in graphiter, there are only a few popular people and most people (the new members added later) only have a few connections.
 
 
-### fireflies
+## fireflies
 Displays fireflies (yellow dots) on a night (black) background.  
 Each firefly builds up charge over time. Upon reaching full charge, it displays a full intensity yellow dot on the screen, which then fades.  
 Discharging a light will cause nearby fireflies to also adjust their discharge times to more closely match each other.  
 End result is all fireflies discharging and lighting up together.  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/fireflies/fireflies.png">
 
-### computervision
+## computervision
 **Grayscale**  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/computervision/leaves/leaves.jpg" width="30%">
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/computervision/leaves/leavesgb.jpg" width="30%">
