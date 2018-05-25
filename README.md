@@ -1,9 +1,18 @@
 # tjhsst
   
-Here are several of my high school projects/assignments.  
-1. [Word Ladder](#wordladder)
-2. [Rail Road](#railroad)
-3. [Sudoku](#sudoku)
+Here are several of my high school projects/assignments.
+Graph Traversal Algorithms:
+[Word Ladder](#wordladder)
+[Rail Road](#railroad)
+  
+Game Automation:
+[Sudoku](#sudoku)
+[Ghost](#ghost)
+[Othello](#othello)
+  
+Optimization:
+[Travelling Salesman](#salesman)
+[N Queens](#nQueens)
   
 ## wordladder
 Builds a graph with the 6-letter words in words.txt. Words with a one letter difference are neighbors in the graph.  
