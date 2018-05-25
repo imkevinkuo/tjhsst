@@ -64,30 +64,30 @@ End result is all fireflies discharging and lighting up together.
 
 ### computervision
 **Grayscale**  
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/leaves/leaves.jpg" width="30%">
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/leaves/leavesgb.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/leaves/leaves.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/leaves/leavesgb.jpg" width="30%">
   
 **Edge detection (Sobel/Canny)**  
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/leaves/leavesgbe.jpg" width="30%">
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/leaves/leavesgbet.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/leaves/leavesgbe.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/leaves/leavesgbet.jpg" width="30%">
 
 **Circle detection (Hough Transform)**  
 <nowiki>*</nowiki>brighter spots in the third image have a greater likelyhood of being detected as a circle.  
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/coins.jpg" width="30%">
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/coinse.jpg" width="30%">  
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/coinshough.jpg" width="30%">
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/coinsfinal.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/coins.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/coinse.jpg" width="30%">  
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/coinshough.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/coinsfinal.jpg" width="30%">
 
 **Concentric Circle Detection**  
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/donuts.jpg" width="30%">
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/donutsedge.jpg" width="30%">  
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/donutshough.jpg" width="30%">
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/donutsfinal.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/donuts.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/donutsedge.jpg" width="30%">  
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/donutshough.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/donutsfinal.jpg" width="30%">
 
 **Line Detection**  
 <nowiki>*</nowiki>the third image plots two variables, rho and theta. Pixel intensity increases with likelyhood of being a line.  
 Implementation details can be found <a href= "https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html">here</a>.  
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/tilted.png" width="30%">
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/tiltede.jpg" width="30%">  
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/tiltedhough.jpg" width="30%">
-<img src="https://raw.githubusercontent.com/saltmining/computervision/master/misc/tiltedfinal.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/tilted.png" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/tiltede.jpg" width="30%">  
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/tiltedhough.jpg" width="30%">
+<img src="https://raw.githubusercontent.com/saltmining/tjhsst/master/computervision/misc/tiltedfinal.jpg" width="30%">
