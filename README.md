@@ -22,8 +22,8 @@ Click <a href="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/sudoku
   
 ## ghost
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/ghost/ghost.png" width="50%" align="right">  
-Ghost is a game where players take turns spelling out individual letters of a word. The first player to complete a word or a word-less prefix loses. <br>
-The Python script creates an alphabetic trie out of the words in ghost.txt and supports any combination of human and computer players. <br>
+Ghost is a game where players take turns spelling out individual letters of a word. The first player to spell out a word or a word-less prefix loses. <br><br>
+This Python script creates an alphabetic trie out of the words in ghost.txt and supports any combination of human and computer players. <br><br><br>
   
 ## othello
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/othello/othello.png" width="50%" align="right">  
