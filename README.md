@@ -102,10 +102,12 @@ Note that the first graph is shaped more symmetrically, while in the second, the
   
 ## fireflies
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/fireflies/fireflies.png" width="30%" align="right">  
-This Python script displays fireflies (yellow dots) on a night (black) background.<br>
-Each firefly builds up charge over time. Upon reaching full charge, it displays a full intensity yellow dot on the screen, which then fades.<br>
-Discharging a light will cause nearby fireflies to also adjust their discharge times to more closely match each other.<br>
-After enough time passes, all of the fireflies will discharge and light up together.<br>
+This Python script displays fireflies (yellow dots) on a night (black) background.<br><br>
+All fireflies have a set 'charge-up' time, but have random start times. <br><br>
+
+When a firefly 'discharges', it will display full intensity yellow dot on the screen, which then fades. Discharging a light will also cause nearby fireflies to also adjust their discharge times to more closely match the source.<br><br>
+
+After enough time passes, all of the fireflies will discharge and light up together.<br><br>
   
 ## closestpoints
 This C++ program compares three algorithms for finding the two closest points in a set.  
