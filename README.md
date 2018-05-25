@@ -86,7 +86,7 @@ MPIbrot has identical function, but can use multiple processing cores using mpir
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/mandelbrot/zoomedin.png" width="30%">  
   
 ## raytracing
-This C program uses raytracing techniques to draw simple 3d graphics on a 640x480 pixel canvas.
+This C program uses raytracing techniques to draw simple 3d graphics on a 640x480 pixel canvas. The different stages of shading are shown below.  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/raytracing/ray00.png" width="30%">
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/raytracing/ray0_5.png" width="30%">
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/raytracing/ray01.png" width="30%">  
