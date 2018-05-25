@@ -29,14 +29,14 @@ This Python script creates an alphabetic trie out of the words in ghost.txt and 
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/othello/othello.png" width="50%" align="right">  
 This Python script for Othello supports player vs. player, player vs. computer, or computer vs. computer. <br>
 The computer player uses a minimax algorithm that prioritizes edges and corners and assumes the opponent will do the same. <br>
-It can also read in a board and output an 'optimal' move - <b>oModerator.py</b> (written by instructor) plays two such programs against each other for multiple rounds and records the win/loss results at the end. <br><br>
+It can also read in a board and output an 'optimal' move - <b>oModerator.py</b> (written by instructor) plays two such programs against each other for multiple rounds and records the win/loss results at the end. <br>
   
 ## salesman
 Travelling Salesman Problem (TSP) in Python  
 **Iterative** - randomly generates a path, then "untangles" it, eliminating all intersections between line segments in the path. After untangling, the program makes local optimizations, which minimizes path length in sets of 4-8 adjacent points.  
 **Genetic algorithm** - creates a size N population of untangled paths and measures path fitness inversely with path length. Each generation cycle creates N/2 "children paths" by combining two members of the current population. The least fit N/2 members of the new population are then removed from the set.  
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/salesman/working path.png" width="50%">
-<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/salesman/best path.png" width="50%">  
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/salesman/working path.png" width="40%">
+<img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/salesman/best path.png" width="40%">  
   
 ## nQueens
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/nqueens/nqueens30.png" width="40%" align="right">
