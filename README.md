@@ -96,7 +96,7 @@ This C program simulates a "forest fire" where fire spreads to adjacent cells.
 Uses system time as a seed to generate trees in a grid. Several trials are conducted with varying "tree densities", and the program calculates the density with the longest normalized burnout time (# of iterations until burnout, divided by grid size).  
   
 ## sociallinks  
-This Python script simulates two ways of making connections.
+This Python script simulates two ways of making connections and plots the distribution of # of connections each person has.  
 Group one starts with a given population and draws random links between everyone. The plot is given by graphrand.jpg.  
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/sociallinks//graphrand.jpg" width="50%">  
 Group two starts with a small number of people (a "popular group") who all know each other. We iteratively add new members to the society and give each new member a few social links. The resulting graph is shown by graphiter.jpg.  
