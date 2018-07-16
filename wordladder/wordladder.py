@@ -120,7 +120,7 @@ def diameter():
     visited = set()
     for start in dgraph:
         if start not in visited:
-            parents, distances = bfs(start)
+            parents, distances = bfs(dgraph, start)
             ## first run only
             if maxDist == 0:
                 for v in distances:
