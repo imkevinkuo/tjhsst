@@ -1,6 +1,6 @@
 # tjhsst
   
-A compilation of my high school projects/assignments. I am currently cleaning up Neural Networks.  
+A compilation of my high school projects/assignments.  
 Graph Traversal Algorithms: [Word Ladder](#wordladder), [Rail Road](#railroad)  
 Game Automation: [Sudoku](#sudoku), [Ghost](#ghost), [Othello](#othello)  
 Optimization: [Travelling Salesman](#salesman), [N-Queens](#nQueens), [Neural Networks](#neuralnetwork)  
@@ -46,7 +46,7 @@ This Python script places N queens on a NxN board with queens such that none of 
 <b>Genetic algorithm</b> - Similar to the genetic TSP method. Splices parent boards by copying the front of parent 1 (up to a specified pivot point) and appending the rest of the unused numbers in the order they occur in parent 2. This algorithm's time efficiency is far more reliable than the above two methods at large N.<br>
   
 ## neuralnetwork
-WIP    
+Trains a neural network on the NOT, AND, OR, and XOR sets. Can handle a variable number of layers and nodes per layer.    
   
 ## imageprocessing
 All the image feature detection techniques below are implemented in Python.  
