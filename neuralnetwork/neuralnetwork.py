@@ -73,7 +73,7 @@ def trainNN(inSet, outSet, internalLayers):
     lastWeightDiffs = []
     momentum = 0.3
     learningRate = 0.5
-    while (epoch < 5000):
+    while (epoch < 5000 and (lastError == 0 or lastError > 0.001)):
         epoch += 1
         
         storeWeights = []
@@ -103,13 +103,14 @@ def trainNN(inSet, outSet, internalLayers):
                     
         lastError = totalError
         lastWeightDiffs = weightDiffs
+    printNN(weights, inSet)
 def printNN(weights, inSet=None):
     print("----------------------------")
     for n in range(len(weights)):
         print(n, weights[n])
     if inSet is not None:
-        print()
-        
+        for inputs in inSet:
+            print(inputs, forward(inputs, weights)[0][-1])        
 inSet, outSet = gatein, xorout
 internalLayers = [3]
 trainNN(inSet, outSet, internalLayers)
