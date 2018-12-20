@@ -137,11 +137,11 @@ def checkSolution(n, pool, gen, stats):
         if valid(m):
             return m
     return None
-def nQueensGenetic(n, pop, gens):
+def nQueensGenetic(n, pop):
     pool = [generateBoard(n) for b in range(pop)]
     gen = 0
     while True:
-        s = checkSolution(n, pool, gen, False)
+        s = checkSolution(n, pool, gen, True)
         if s:
             return s
         gen += 1
@@ -165,13 +165,13 @@ def nQueensGenetic(n, pop, gens):
 
 ## sys.argv stuff
 start = time.time()
-n = 30
+n = 40
 
 ## GENETIC
-child = nQueensGenetic(n,50,100)
+#child = nQueensGenetic(n,100)
 
 ## ITERATIVE
-##child = nQueensIterative(n, 10)
+child = nQueensIterative(n, 100)
 
 ## BACKTRACKING/BRUTE FORCE
 ##child = nQueensBackTracking(n)

@@ -42,8 +42,8 @@ Travelling Salesman Problem (TSP) in Python
 <img src="https://raw.githubusercontent.com/imkevinkuo/tjhsst/master/nqueens/nqueens30.png" width="40%" align="right">
 This Python script places N queens on a NxN board with queens such that none of them attack each other. <br>
 <b>Brute force backtracking</b> - Generates all possible boards one queen at a time and only works off legal permutations (i.e. will eliminate a "solution" that contains a queen in A1 and another in B2, even if the board size is 8).  Returns a list of all possible boards. Time efficiency is n! due to brute force nature. <br>
-<b>Hill climbing</b> - Generates a random board and checks single column swaps to reduce # of conflicts. Sometimes, a solution cannot be found due to the starting spot (we reach a 'local minimum'), in which case we generate a new board and restart. <br>
-<b>Genetic algorithm</b> - Similar to the genetic TSP method. Splices parent boards by copying the front of parent 1 (up to a specified pivot point) and appending the rest of the unused numbers in the order they occur in parent 2. This algorithm's time efficiency is far more reliable than the above two methods at large N.<br>
+<b>Hill climbing</b> - Generates a random board and checks single column swaps to reduce # of conflicts. Sometimes, a solution cannot be found due to the starting spot (we reach a local minimum), in which case we generate a new board and restart. <br>
+<b>Genetic algorithm</b> - Similar to the genetic TSP method. Splices parent boards by copying the front of parent 1 (up to a specified pivot point) and appending the rest of the unused numbers in the order they occur in parent 2.<br>
   
 ## neuralnetwork
 Trains a neural network on the NOT, AND, OR, and XOR sets. Can handle a variable number of layers and nodes per layer.    
